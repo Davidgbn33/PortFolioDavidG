@@ -1,4 +1,4 @@
-<div class="home ">
+<div class="home">
 
     <div class="home-nav ms-3">
     <?php include "_include/navbar.php"  ?>

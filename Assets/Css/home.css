@@ -1,12 +1,11 @@
 .home {
-    height: 100vh;
     display: grid;
     grid:
     "home-nav home-nav" auto
     "home-photo home-des " 1fr
     /1fr 1fr;
+    height: 100vh;
 }
-
 
 .home-photo {
     grid-area: home-photo;

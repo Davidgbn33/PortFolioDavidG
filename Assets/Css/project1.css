@@ -1,20 +1,28 @@
 .p1 {
     display: grid;
-    grid : "p1-photo  p1-card" 1fr
+    justify-content: center;
+    grid : "p1-title p1-title" 50px
+            "p1-photo  p1-card" 1fr
     "p1-photo p1-card" 1fr
     "p1-des p1-des" 1fr
-    / 1fr 1fr;
-    height: 80vh;
+    / 49% 49%;
+    height: 100vh;
+}
+.p1-title{
+    grid-area: p1-title;
+    margin: 0;
 }
 .p1-photo{
     grid-area: p1-photo;
     background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .p1-card{
     grid-area: p1-card;
-    background: blue;
 }
 .p1-des{
     grid-area: p1-des;
-
 }
+
