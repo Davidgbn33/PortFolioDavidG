@@ -7,12 +7,19 @@
 @import "card.css";
 
 body{
-    background: url("/Assets/image/background.jpg") center center /cover;
-    overflow: auto;
+   box-sizing: border-box;
 }
+
 h1, h2, h3,h4, h5,h6,p, ul , li{
     color: white;
 }
 hr{
     color: white;
+}
+.img-home{
+    background: url("/Assets/image/background.jpg") center center /cover;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    z-index: -4;
 }

@@ -1,5 +1,4 @@
 .home {
-    /*background: url("/Assets/image/background.jpg") center center /cover;*/
     height: 100vh;
     display: grid;
     grid:
@@ -7,6 +6,7 @@
     "home-photo home-des " 1fr
     /1fr 1fr;
 }
+
 
 .home-photo {
     grid-area: home-photo;
