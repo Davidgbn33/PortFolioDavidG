@@ -1,0 +1,20 @@
+.p3 {
+    display: grid;
+    grid : "p1-photo  p1-card" 1fr
+    "p1-photo p1-card" 1fr
+    "p1-des p1-des" 1fr
+    / 1fr 1fr;
+    height: 80vh;
+}
+.p3-photo{
+    grid-area: p1-photo;
+    background: red;
+}
+.p3-card{
+    grid-area: p1-card;
+    background: blue;
+}
+.p3-des{
+    grid-area: p1-des;
+
+}
